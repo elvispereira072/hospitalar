@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Hospital São Bernardo</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="site-title">Bem-vindo ao Hospital São Bernardo </h1>
+    </header>
+
+    <button class="menu-btn" onclick="toggleMenu()">Menu</button>
+
+    <div id="sidebar">
+        <ul>
+            <li><a href="sobre-nós.html">Sobre nós</a></li>
+            <li><a href="historia.html">História</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h2>Bem-vindo ao nosso atendimento hospitalar excepcional</h2>
+        <p>Descubra uma ampla gama de serviços médicos adaptados para atender às suas necessidades exclusivas.
+            Desde exames de rotina até tratamentos especializados, nosso hospital oferece uma ampla gama de serviços de
+            saúde. Nossas instalações de última geração e tecnologias médicas avançadas nos permitem fornecer
+            diagnósticos precisos e tratamentos eficazes.</p>
+        <br />
+    </div>
+
+    <div class="doutor-profile">
+        <a href="doutor.html">
+            <img src="assets/doutor.jpeg" alt="doutor" />
+            <h3>Dr. John Doe</h3>
+            <span class="schedule-appointment">Agendar Consulta</span>
+        </a>
+        <br />
+        <br />
+        <br />
+    </div>
+
+    <div class="doutora-profile">
+        <div class="dentista-profile"></div>
+            <img src="assets/doutora.jpeg" alt="doutora" />
+            <h3>Dr. Jane Smith</h3>
+            <span class="schedule-appointment">Agendar Consulta</span>
+        </a>
+        <br />
+        <br />
+        <br />
+    </div>
+
+    <div class="dentista-profile">
+        <a href="dentista.html">
+            <img src="assets/dentista.jpeg" alt="dentista" />
+            <h3>Dentista. Rayne Heels</h3>
+            <span class="schedule-appointment">Agendar Consulta</span>
+        </a>
+        <br />
+        <br />
+        <br />
+    </div>
+
+    <div class="enfermeira-profile">
+        <a href="enfermeira.html">
+            <img src="assets/enfermeira.webp" alt="enfermeira" />
+            <h3>Enfermeira Michelle</h3>
+            <span class="schedule-appointment">Agendar Consulta</span>
+        </a>
+        <br />
+        <br />
+        <br />
+    </div>
+
+    <br />
+
+    <script>
+        function toggleMenu() {
+            var sidebar = document.getElementById('sidebar');
+            sidebar.style.display = (sidebar.style.display === 'none' || sidebar.style.display === '') ? 'block' : 'none';
+        }
+    </script>
+
+    <footer>
+        <p>&copy; 2024 Hospital São Bernardo.</p>
+        <p>© 2024 Bem vindo ao Hospital São Bernardo. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

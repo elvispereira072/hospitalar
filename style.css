@@ -1,0 +1,604 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: blue;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  margin: 50px auto; /* Adiciona uma margem de 50 pixels acima e abaixo e alinha o container ao centro horizontalmente */
+  max-width: 800px; /* Define a largura máxima do container para 800 pixels */
+  padding: 20px; /* Adiciona um preenchimento interno de 20 pixels para espaçamento interno */
+  background-color: #ffffff; /* Cor de fundo do container */
+  border-radius: 10px; /* Borda arredondada do container */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.doutor-profile img {
+  width: 400px;
+  height: 400px;
+  border-radius: 500%;
+}
+
+.doutor-profile h3,
+.doutor-profile p,
+.doutor-profile .schedule-appointment {
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.doutor-profile a {
+  text-decoration: none; /* Remove sublinhado padrão */
+  color: inherit; /* Usa a cor padrão do texto */
+  display: block; /* Faz o link ocupar todo o espaço disponível */
+}
+
+/* Estilos para a imagem dentro da classe doutor-profile */
+.doutor-profile img {
+  width: 150px; /* Define a largura da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 50%; /* Transforma a imagem em um círculo */
+  margin: 0 auto 10px; /* Margem na parte superior e inferior */
+}
+
+/* Estilos para o título dentro da classe doutor-profile */
+.doutor-profile h3 {
+  margin: 0; /* Remove margem padrão */
+  color: blue; /* Cor azul para o título */
+}
+
+/* Estilos para a classe schedule-appointment dentro da classe doutor-profile */
+.doutor-profile .schedule-appointment {
+  display: block; /* Faz o elemento ocupar toda a largura */
+  background-color: blue; /* Cor de fundo azul */
+  color: #fff; /* Cor do texto branco */
+  padding: 5px 10px; /* Preenchimento interno */
+  border-radius: 5px; /* Borda arredondada */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  width: 150px; /* Largura do botão */
+  text-align: center; /* Centraliza o texto */
+  text-decoration: none; /* Remove sublinhado padrão */
+}
+
+/* Estilos para a classe schedule-appointment dentro da classe doutor-profile */
+.doutor-profile .schedule-appointment {
+  display: block; /* Faz o elemento ocupar toda a largura */
+  background-color: blue; /* Cor de fundo azul */
+  color: #fff; /* Cor do texto branco */
+  padding: 5px 10px; /* Preenchimento interno */
+  border-radius: 5px; /* Borda arredondada */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  width: 150px; /* Largura do botão */
+  text-align: center; /* Centraliza o texto */
+  text-decoration: none; /* Remove sublinhado padrão */
+}
+
+/* Mudança de cor quando clicado */
+.doutor-profile .schedule-appointment:active {
+  background-color: green; /* Cor de fundo verde quando clicado */
+}
+
+/* Estilos para a classe schedule-appointment dentro da classe doutor-profile */
+.doutor-profile .schedule-appointment {
+  display: block; /* Faz o elemento ocupar toda a largura */
+  background-color: blue; /* Cor de fundo azul */
+  color: #fff; /* Cor do texto branco */
+  padding: 5px 10px; /* Preenchimento interno */
+  border-radius: 5px; /* Borda arredondada */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  width: 150px; /* Largura do botão */
+  text-align: center; /* Centraliza o texto */
+  text-decoration: none; /* Remove sublinhado padrão */
+  transition: background-color 0.3s ease; /* Adiciona uma transição suave */
+}
+
+/* Mudança de cor quando passa o mouse */
+.doutor-profile .schedule-appointment:hover {
+  background-color: green; /* Cor de fundo verde quando passa o mouse */
+}
+
+
+.doutora-profile img {
+  width: 400px;
+  height: 400px;
+  ;
+  border-radius: 500%;
+}
+
+.doutora-profile h3,
+.doutora-profile p,
+.doutora-profile .schedule-appointment {
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.doutor-profile a {
+  text-decoration: none; /* Remove sublinhado padrão */
+  color: inherit; /* Usa a cor padrão do texto */
+  display: block; /* Faz o link ocupar todo o espaço disponível */
+}
+
+/* Estilos para a imagem dentro da classe doutor-profile */
+.doutora-profile img {
+  width: 150px; /* Define a largura da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 50%; /* Transforma a imagem em um círculo */
+  margin: 0 auto 10px; /* Margem na parte superior e inferior */
+}
+
+/* Estilos para o título dentro da classe doutor-profile */
+.doutora-profile h3 {
+  margin: 0; /* Remove margem padrão */
+  color: blue; /* Cor azul para o título */
+}
+
+/* Estilos para a classe schedule-appointment dentro da classe doutor-profile */
+.doutora-profile .schedule-appointment {
+  display: block; /* Faz o elemento ocupar toda a largura */
+  background-color: blue; /* Cor de fundo azul */
+  color: #fff; /* Cor do texto branco */
+  padding: 5px 10px; /* Preenchimento interno */
+  border-radius: 5px; /* Borda arredondada */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  width: 150px; /* Largura do botão */
+  text-align: center; /* Centraliza o texto */
+  text-decoration: none; /* Remove sublinhado padrão */
+}
+
+/* Estilos para a classe schedule-appointment dentro da classe doutor-profile */
+.doutora-profile .schedule-appointment {
+  display: block; /* Faz o elemento ocupar toda a largura */
+  background-color: blue; /* Cor de fundo azul */
+  color: #fff; /* Cor do texto branco */
+  padding: 5px 10px; /* Preenchimento interno */
+  border-radius: 5px; /* Borda arredondada */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  width: 150px; /* Largura do botão */
+  text-align: center; /* Centraliza o texto */
+  text-decoration: none; /* Remove sublinhado padrão */
+}
+
+/* Mudança de cor quando clicado */
+.doutora-profile .schedule-appointment:active {
+  background-color: green; /* Cor de fundo verde quando clicado */
+}
+
+/* Estilos para a classe schedule-appointment dentro da classe doutor-profile */
+.doutora-profile .schedule-appointment {
+  display: block; /* Faz o elemento ocupar toda a largura */
+  background-color: blue; /* Cor de fundo azul */
+  color: #fff; /* Cor do texto branco */
+  padding: 5px 10px; /* Preenchimento interno */
+  border-radius: 5px; /* Borda arredondada */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  width: 150px; /* Largura do botão */
+  text-align: center; /* Centraliza o texto */
+  text-decoration: none; /* Remove sublinhado padrão */
+  transition: background-color 0.3s ease; /* Adiciona uma transição suave */
+}
+
+/* Mudança de cor quando passa o mouse */
+.doutora-profile .schedule-appointment:hover {
+  background-color: green; /* Cor de fundo verde quando passa o mouse */
+}
+
+.dentista-profile a {
+  text-decoration: none; /* Remove sublinhado padrão */
+  color: inherit; /* Usa a cor padrão do texto */
+  display: block; /* Faz o link ocupar todo o espaço disponível */
+}
+
+/* Estilos para a imagem dentro da classe doutor-profile */
+.dentista-profile img {
+  width: 150px; /* Define a largura da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 50%; /* Transforma a imagem em um círculo */
+  margin: 0 auto 10px; /* Margem na parte superior e inferior */
+}
+
+/* Estilos para o título dentro da classe doutor-profile */
+.dentista-profile h3 {
+  margin: 0; /* Remove margem padrão */
+  color: blue; /* Cor azul para o título */
+}
+
+/* Estilos para a classe schedule-appointment dentro da classe doutor-profile */
+.dentista-profile .schedule-appointment {
+  display: block; /* Faz o elemento ocupar toda a largura */
+  background-color: blue; /* Cor de fundo azul */
+  color: #fff; /* Cor do texto branco */
+  padding: 5px 10px; /* Preenchimento interno */
+  border-radius: 5px; /* Borda arredondada */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  width: 150px; /* Largura do botão */
+  text-align: center; /* Centraliza o texto */
+  text-decoration: none; /* Remove sublinhado padrão */
+}
+
+/* Estilos para a classe schedule-appointment dentro da classe doutor-profile */
+.dentista-profile .schedule-appointment {
+  display: block; /* Faz o elemento ocupar toda a largura */
+  background-color: blue; /* Cor de fundo azul */
+  color: #fff; /* Cor do texto branco */
+  padding: 5px 10px; /* Preenchimento interno */
+  border-radius: 5px; /* Borda arredondada */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  width: 150px; /* Largura do botão */
+  text-align: center; /* Centraliza o texto */
+  text-decoration: none; /* Remove sublinhado padrão */
+}
+
+/* Mudança de cor quando clicado */
+.dentista-profile .schedule-appointment:active {
+  background-color: green; /* Cor de fundo verde quando clicado */
+}
+
+/* Estilos para a classe schedule-appointment dentro da classe doutor-profile */
+.dentista-profile .schedule-appointment {
+  display: block; /* Faz o elemento ocupar toda a largura */
+  background-color: blue; /* Cor de fundo azul */
+  color: #fff; /* Cor do texto branco */
+  padding: 5px 10px; /* Preenchimento interno */
+  border-radius: 5px; /* Borda arredondada */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  width: 150px; /* Largura do botão */
+  text-align: center; /* Centraliza o texto */
+  text-decoration: none; /* Remove sublinhado padrão */
+  transition: background-color 0.3s ease; /* Adiciona uma transição suave */
+}
+
+/* Mudança de cor quando passa o mouse */
+.dentista-profile .schedule-appointment:hover {
+  background-color: green; /* Cor de fundo verde quando passa o mouse */
+}
+
+.dentista-profile img {
+  width: 400px;
+  height: 400px;
+  border-radius: 500%;
+}
+
+.dentista-profile h3,
+.dentista-profile p,
+.dentista-profile .schedule-appointment {
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.dentista-profile a {
+  text-decoration: none; /* Remove sublinhado padrão */
+  color: inherit; /* Usa a cor padrão do texto */
+  display: block; /* Faz o link ocupar todo o espaço disponível */
+}
+
+/* Estilos para a imagem dentro da classe doutor-profile */
+.enfermeira-profile img {
+  width: 150px; /* Define a largura da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 50%; /* Transforma a imagem em um círculo */
+  margin: 0 auto 10px; /* Margem na parte superior e inferior */
+}
+
+/* Estilos para o título dentro da classe doutor-profile */
+.enfermeira-profile h3 {
+  margin: 0; /* Remove margem padrão */
+  color: blue; /* Cor azul para o título */
+}
+
+/* Estilos para a classe schedule-appointment dentro da classe doutor-profile */
+.enfermeira-profile .schedule-appointment {
+  display: block; /* Faz o elemento ocupar toda a largura */
+  background-color: blue; /* Cor de fundo azul */
+  color: #fff; /* Cor do texto branco */
+  padding: 5px 10px; /* Preenchimento interno */
+  border-radius: 5px; /* Borda arredondada */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  width: 150px; /* Largura do botão */
+  text-align: center; /* Centraliza o texto */
+  text-decoration: none; /* Remove sublinhado padrão */
+}
+
+/* Estilos para a classe schedule-appointment dentro da classe doutor-profile */
+.enfermeira-profile .schedule-appointment {
+  display: block; /* Faz o elemento ocupar toda a largura */
+  background-color: blue; /* Cor de fundo azul */
+  color: #fff; /* Cor do texto branco */
+  padding: 5px 10px; /* Preenchimento interno */
+  border-radius: 5px; /* Borda arredondada */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  width: 150px; /* Largura do botão */
+  text-align: center; /* Centraliza o texto */
+  text-decoration: none; /* Remove sublinhado padrão */
+}
+
+/* Mudança de cor quando clicado */
+.enfermeira-profile .schedule-appointment:active {
+  background-color: green; /* Cor de fundo verde quando clicado */
+}
+
+/* Estilos para a classe schedule-appointment dentro da classe doutor-profile */
+.enfermeira-profile .schedule-appointment {
+  display: block; /* Faz o elemento ocupar toda a largura */
+  background-color: blue; /* Cor de fundo azul */
+  color: #fff; /* Cor do texto branco */
+  padding: 5px 10px; /* Preenchimento interno */
+  border-radius: 5px; /* Borda arredondada */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  width: 150px; /* Largura do botão */
+  text-align: center; /* Centraliza o texto */
+  text-decoration: none; /* Remove sublinhado padrão */
+  transition: background-color 0.3s ease; /* Adiciona uma transição suave */
+}
+
+/* Mudança de cor quando passa o mouse */
+.enfermeira-profile .schedule-appointment:hover {
+  background-color: green; /* Cor de fundo verde quando passa o mouse */
+}
+
+.enfermeira-profile img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%; /* Corrigido para um círculo perfeito */
+}
+
+.enfermeira-profile h3,
+.enfermeira-profile p,
+.enfermeira-profile .schedule-appointment {
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+#sidebar {
+  display: none;
+}
+
+#sidebar {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+}
+
+#sidebar {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#sidebar li {
+  margin-bottom: 5px;
+  background-color: green;
+
+}
+
+#sidebar a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 5px;
+}
+
+#sidebar a:hover {
+  background-color: #ddd;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: blue;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.doutor-profile img {
+  width: 400px;
+  height: 400px;
+  border-radius: 500%;
+  margin-left: 80px;
+}
+
+.doutor-profile h3,
+.doutor-profile p,
+.doutor-profile .schedule-appointment {
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.doutora-profile img {
+  width: 400px;
+  height: 400px;
+  border-radius: 500%;
+  margin-left: 80px;
+}
+
+.doutora-profile h3,
+.doutora-profile p,
+.doutora-profile .schedule-appointment {
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.dentista-profile img {
+  width: 400px;
+  height: 400px;
+  border-radius: 500%;
+  margin-left: 80px;
+}
+
+.dentista-profile h3,
+.dentista-profile p,
+.dentista-profile .schedule-appointment {
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.enfermeira-profile img {
+  width: 400px;
+  height: 400px;
+  border-radius: 500%;
+  margin-left: 80px;
+}
+
+.enfermeira-profile h3,
+.enfermeira-profile p,
+.enfermeira-profile .schedule-appointment {
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+h3 {
+  margin-top: 10px;
+  color: black;
+  font-size: 20px;
+}
+
+.schedule-appointment {
+  display: inline-block;
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.schedule-appointment:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: blue;
+  color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.site-subtitle {
+  font-size: 24px;
+  color: white;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 28px;
+  }
+
+  .doctor-profile {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .schedule-appointment {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+}
+
+.buy-link {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.buy-link:hover {
+  background-color: #ddd;
+}
+
+.product {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+  .doctor-profile img {
+    max-width: 80%;
+  }
+
+  .product-details img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.menu-btn {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  background-color: navy;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 16px;
+  outline: none;
+  z-index: 999;
+}
+
+.menu-btn:hover {
+  background-color: green;
+}
+
+.menu a {
+  display: none;
+  padding: 5px;
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.menu a.visible {
+  display: block;
+}

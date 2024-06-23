@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Jane Smith- Pediatra</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .doutor-profile h3,
+        .doutor-profile p,
+        .doutor-profile .schedule-appointment {
+            margin-left: 80px;
+            margin-top: 10px;
+        }
+
+        .cta-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px 20px;
+            text-align: center;
+            color: #fff;
+            background-color: green;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .cta-button:hover {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Enfermeira Michelly</h1>
+        <p>Disponibilidade: Segunda a Sexta</p>
+    </header>
+    <br>
+    <br>
+
+    <section class="doutor-profile"> <!-- Adicionando a classe doutor-profile aqui -->
+        <img src="assets/enfermeira.webp" alt="doutor" />
+        <br>
+    </section>
+
+    <section>
+        <h2>Agendar Consulta</h2>
+        <p>Para agendar uma consulta com a enfermeira michelly, clique no botão abaixo:</p>
+        <br>
+    </section>
+
+    <script>
+        function agendarConsulta() {
+            alert("Consulta agendada com sucesso! Entraremos em contato em breve.");
+        }
+    </script>
+
+<a href="https://api.whatsapp.com/send?phone=[SEU_NÚMERO_DE_TELEFONE]&text=Olá! Gostaria de fazer um pedido."
+class="cta-button">Entre em contato no WhatsApp</a>
+<br>
+<br>
+
+    <footer>
+        <p>&copy; 2024 Hospital São Bernardo.</p>
+        <p>© 2024 Bem vindo ao Hospital São Bernardo. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
